@@ -1,0 +1,167 @@
+[
+    {
+        "storyTitle": "The Jungle Morning Adventure",
+        "pages": [
+            {
+                "title": "Leo's Big Morning",
+                "text": "Leo the Lion woke up as the sun rose over the jungle, stretching his paws and letting out a big yawn. 'Today is going to be an adventure!' he said.",
+                "image": "/images/leo-morning.webp",
+                "parentPrompt": "What kind of adventure do you think Leo is planning?",
+                "improvPrompt": "Ask your child to roar and stretch like Leo starting his day."
+            },
+            {
+                "title": "Meeting Ella and Ziggy",
+                "text": "As Leo walked through the jungle, he met his friends Ella the Elephant and Ziggy the Zebra. They were excited to join him on his adventure!",
+                "image": "/images/meeting-friends.webp",
+                "parentPrompt": "How do you think Ella and Ziggy will help Leo?",
+                "improvPrompt": "Let your child pretend to stomp like Ella or gallop like Ziggy."
+            },
+            {
+                "title": "The Mysterious Path",
+                "text": "They soon came across a winding path they'd never seen before. 'Let's see where it goes!' said Leo, leading the way.",
+                "image": "/images/mysterious-path.webp",
+                "parentPrompt": "Where do you think the path will lead them?",
+                "improvPrompt": "Make up what the path might look like, or pretend to walk down it together."
+            },
+            {
+                "title": "Finding the Waterfall",
+                "text": "At the end of the path, they found a beautiful waterfall surrounded by flowers. It was the perfect spot to rest and enjoy their adventure.",
+                "image": "/images/waterfall.webp",
+                "parentPrompt": "What would you do if you found a hidden waterfall?",
+                "improvPrompt": "Pretend to splash in the water and listen to the sound of the waterfall."
+            }
+        ]
+    },
+    {
+        "storyTitle": "The Lost Rainbow",
+        "pages": [
+            {
+                "title": "Lila's Colorful Quest",
+                "text": "Lila the Unicorn noticed that the rainbow was missing after a big storm. She decided to find it and bring back the colors.",
+                "image": "/images/unicorn-quest.webp",
+                "parentPrompt": "Where do you think the rainbow could be hiding?",
+                "improvPrompt": "Ask your child to imagine what colors Lila might see on her journey."
+            },
+            {
+                "title": "Asking the Birds",
+                "text": "Lila asked the birds if they'd seen the rainbow. They chirped, 'We saw it flying over the mountains!'",
+                "image": "/images/birds.webp",
+                "parentPrompt": "How do you think the birds can help Lila find the rainbow?",
+                "improvPrompt": "Pretend to fly like birds with your child and search together."
+            },
+            {
+                "title": "The Mountain Climb",
+                "text": "Lila climbed the mountain, hoping to catch a glimpse of the rainbow from the top.",
+                "image": "/images/mountain.webp",
+                "parentPrompt": "What do you think Lila will see at the top of the mountain?",
+                "improvPrompt": "Pretend to climb together, reaching high as you go."
+            },
+            {
+                "title": "Rainbow Found!",
+                "text": "At last, Lila spotted the rainbow! It was shining brightly over a hidden valley, and she knew her journey was worth it.",
+                "image": "/images/rainbow.webp",
+                "parentPrompt": "What do you think Lila learned from her adventure?",
+                "improvPrompt": "Ask your child to make the rainbow shape with their arms."
+            }
+        ]
+    },
+    {
+        "storyTitle": "The Brave Little Bunny",
+        "pages": [
+            {
+                "title": "Benny's Forest Adventure",
+                "text": "One bright morning, Benny the Bunny decided to explore the forest, ready for his big adventure!",
+                "image": "/images/bunny.webp",
+                "parentPrompt": "What do you think Benny might find in the forest?",
+                "improvPrompt": "Ask your child to hop like Benny as he explores the forest."
+            },
+            {
+                "title": "The Mysterious Rustling",
+                "text": "Benny heard a rustling sound behind a bush and hopped over to investigate.",
+                "image": "/images/rustling-bush.webp",
+                "parentPrompt": "What do you think is making the noise?",
+                "improvPrompt": "Pretend to be as curious as Benny and tiptoe to see what's there!"
+            },
+            {
+                "title": "Finding New Friends",
+                "text": "Benny met Tilly the Turtle and Ricky the Raccoon hiding behind the bush.",
+                "image": "/images/new-friends.webp",
+                "parentPrompt": "What kind of games could Benny play with his new friends?",
+                "improvPrompt": "Ask your child to make up a game Benny and his friends could play."
+            },
+            {
+                "title": "Homeward Bound",
+                "text": "After a fun day, Benny hopped home happily, promising to see his friends again soon.",
+                "image": "/images/bunny-home.webp",
+                "parentPrompt": "How does it feel to make new friends?",
+                "improvPrompt": "Have your child imagine saying goodbye to Benny's friends."
+            }
+        ]
+    },
+    {
+        "storyTitle": "The Magic Paintbrush",
+        "pages": [
+            {
+                "title": "Discovering the Paintbrush",
+                "text": "Mia found an old paintbrush in her attic. When she painted with it, the pictures came to life!",
+                "image": "/images/paintbrush.webp",
+                "parentPrompt": "What would you paint if you had a magic paintbrush?",
+                "improvPrompt": "Pretend to paint something magical with your child."
+            },
+            {
+                "title": "Painting a Garden",
+                "text": "Mia painted a beautiful garden, and suddenly, flowers began to bloom all around her!",
+                "image": "/images/garden.webp",
+                "parentPrompt": "What flowers would you want to see in a magic garden?",
+                "improvPrompt": "Imagine the scent and colors of the flowers together."
+            },
+            {
+                "title": "An Unexpected Visitor",
+                "text": "Out of the flowers jumped a little frog who could talk. 'Thank you for creating my home!' he said.",
+                "image": "/images/talking-frog.webp",
+                "parentPrompt": "What do you think the frog wants to say to Mia?",
+                "improvPrompt": "Make up a conversation with the frog together."
+            },
+            {
+                "title": "Painting the Sky",
+                "text": "Mia painted a sunset, and the sky above her turned into a beautiful array of colors.",
+                "image": "/images/sunset.webp",
+                "parentPrompt": "What colors would you paint in the sky?",
+                "improvPrompt": "Ask your child to pretend to paint a beautiful sky with their hands."
+            }
+        ]
+    },
+    {
+        "storyTitle": "The Kind Pirate Adventure",
+        "pages": [
+            {
+                "title": "Captain Polly's Treasure",
+                "text": "Captain Polly the pirate had found a treasure chest, but instead of keeping it, she decided to share it with others in need.",
+                "image": "/images/pirate-treasure.webp",
+                "parentPrompt": "Why do you think Captain Polly wanted to share her treasure?",
+                "improvPrompt": "Ask your child what they would share if they had treasure."
+            },
+            {
+                "title": "Meeting the Villagers",
+                "text": "Polly sailed to a nearby village and opened her treasure chest for the villagers, who were so happy to receive her gifts!",
+                "image": "/images/village.webp",
+                "parentPrompt": "What kinds of things do you think Polly shared?",
+                "improvPrompt": "Pretend to give out treasures together with your child."
+            },
+            {
+                "title": "The Stormy Sea",
+                "text": "On her way home, Polly faced a big storm! She bravely steered her ship through the wild waves.",
+                "image": "/images/stormy-sea.webp",
+                "parentPrompt": "How do you think Polly felt during the storm?",
+                "improvPrompt": "Make wave motions and pretend to steer a ship together."
+            },
+            {
+                "title": "Home with a Happy Heart",
+                "text": "Polly returned home safely, feeling happy and proud that she could share her treasure and help others.",
+                "image": "/images/pirate-home.webp",
+                "parentPrompt": "How do you feel when you help others?",
+                "improvPrompt": "Ask your child to think of one thing they could share with someone."
+            }
+        ]
+    }
+]

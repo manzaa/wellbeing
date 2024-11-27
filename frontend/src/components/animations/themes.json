@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Healthy Eating Magic",
+      "description": "Transform unhealthy snacks into fruits and vegetables!",
+      "hint": "Drag the candy into the magic hat!",
+      "reward": "Healthy Hero Badge",
+      "animation": "healthySnack.json"
+    },
+    {
+      "id": 2,
+      "title": "Exercise is Magic",
+      "description": "Unlock your energy through movement magic!",
+      "hint": "Mimic the movements shown on the screen to fill the magic energy bar.",
+      "reward": "Energy Champion Badge",
+      "animation": "energyBar.json"
+    },
+    {
+      "id": 3,
+      "title": "Stress Balloon Trick",
+      "description": "Calm your stress by practicing magical deep breaths.",
+      "hint": "Blow into the microphone to deflate the stress balloon.",
+      "reward": "Calm Master Badge",
+      "animation": "balloon.json"
+    },
+    {
+      "id": 4,
+      "title": "Kindness Ripple Effect",
+      "description": "Watch how kindness multiplies!",
+      "hint": "Drop a coin into the box and see the magic of kindness spread.",
+      "reward": "Kindness Wizard Badge",
+      "animation": "kindness.json"
+    }
+  ]
+  

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Reframing Problems",
+    "description": "Look at problems from different angles and brainstorm creative solutions.",
+    "example": "What if we couldn’t use words to explain this?",
+    "activity": "Reverse the problem: 'How would you make the problem worse?' Then brainstorm solutions to fix it.",
+    "difficulty": "Easy",
+    "tags": ["Creativity", "Problem Solving"]
+  },
+  {
+    "id": 2,
+    "title": "What-If Scenarios",
+    "description": "Imagine hypothetical scenarios to spark creativity.",
+    "example": "What if gravity worked in reverse?",
+    "activity": "Explain how the world would function in such situations.",
+    "difficulty": "Medium",
+    "tags": ["Imagination", "Science"]
+  },
+  {
+    "id": 3,
+    "title": "Breaking Rules Creatively",
+    "description": "Challenge conventional rules and suggest alternatives.",
+    "example": "Why do books have pages? What if they didn’t?",
+    "activity": "Think about why rules exist and how breaking them might lead to innovation.",
+    "difficulty": "Hard",
+    "tags": ["Critical Thinking", "Innovation"]
+  },
+  {
+    "id": 4,
+    "title": "Mystery Box Challenge",
+    "description": "Use random items to solve a challenge or tell a story.",
+    "example": "Combine items from a box to invent a new tool or story.",
+    "activity": "Fill a box with random items and have participants use them to solve a problem.",
+    "difficulty": "Easy",
+    "tags": ["Collaboration", "Creativity"]
+  },
+  {
+    "id": 5,
+    "title": "Divergent Thinking",
+    "description": "Generate multiple solutions instead of finding the 'right' answer.",
+    "example": "How many uses can you think of for a paperclip?",
+    "activity": "Focus on quantity over quality in brainstorming sessions.",
+    "difficulty": "Medium",
+    "tags": ["Brainstorming", "Creativity"]
+  },
+  {
+    "id": 6,
+    "title": "Role Reversal",
+    "description": "Pretend to be someone else to view the problem differently.",
+    "example": "What would a bird do in this situation?",
+    "activity": "Solve a problem from another person's or character’s perspective.",
+    "difficulty": "Easy",
+    "tags": ["Perspective", "Empathy"]
+  },
+  {
+    "id": 7,
+    "title": "Design a World",
+    "description": "Create your own imaginary world with unique rules.",
+    "example": "What if there were no cars in your city?",
+    "activity": "Design a world where one rule is completely different.",
+    "difficulty": "Medium",
+    "tags": ["Imagination", "Design"]
+  },
+  {
+    "id": 8,
+    "title": "Unusual Combinations",
+    "description": "Combine unrelated objects to create something new.",
+    "example": "What happens when you mix a piano with a bicycle?",
+    "activity": "Invent something that blends two unrelated things.",
+    "difficulty": "Medium",
+    "tags": ["Creativity", "Invention"]
+  },
+  {
+    "id": 9,
+    "title": "Wordless Storytelling",
+    "description": "Tell a story without using words.",
+    "example": "How can you show emotions using only emojis?",
+    "activity": "Create a visual-only story using pictures or objects.",
+    "difficulty": "Easy",
+    "tags": ["Visual Thinking", "Creativity"]
+  },
+  {
+    "id": 10,
+    "title": "What’s Missing?",
+    "description": "Find and fix a gap in an everyday situation.",
+    "example": "What could improve a typical school day?",
+    "activity": "List things that could be added or changed to make something better.",
+    "difficulty": "Easy",
+    "tags": ["Problem Solving", "Improvement"]
+  },
+  {
+    "id": 11,
+    "title": "Thinking Backward",
+    "description": "Start with the goal and work backward to find solutions.",
+    "example": "If you wanted to invent flying shoes, what problems would you solve first?",
+    "activity": "Reverse-engineer a solution from the outcome.",
+    "difficulty": "Hard",
+    "tags": ["Reverse Thinking", "Problem Solving"]
+  },
+  {
+    "id": 12,
+    "title": "Build a Bridge",
+    "description": "Connect two unrelated ideas or concepts.",
+    "example": "How is a tree like a computer?",
+    "activity": "Find similarities between unrelated objects.",
+    "difficulty": "Medium",
+    "tags": ["Critical Thinking", "Connections"]
+  },
+  {
+    "id": 13,
+    "title": "Picture Puzzle",
+    "description": "Solve problems using only visual clues.",
+    "example": "What’s happening in this picture?",
+    "activity": "Create or interpret stories based on abstract drawings.",
+    "difficulty": "Easy",
+    "tags": ["Visual Thinking", "Storytelling"]
+  },
+  {
+    "id": 14,
+    "title": "Invent a Holiday",
+    "description": "Design a new holiday with unique traditions.",
+    "example": "What would the theme of your holiday be?",
+    "activity": "Plan decorations, activities, and customs for your invented holiday.",
+    "difficulty": "Easy",
+    "tags": ["Imagination", "Traditions"]
+  },
+  {
+    "id": 15,
+    "title": "Dream Big",
+    "description": "Imagine achieving something impossible.",
+    "example": "What if you could live underwater?",
+    "activity": "Brainstorm how you could make the impossible possible.",
+    "difficulty": "Medium",
+    "tags": ["Creativity", "Imagination"]
+  },
+  {
+    "id": 16,
+    "title": "Shape Challenge",
+    "description": "Turn a random shape into something meaningful.",
+    "example": "Draw something starting with this abstract shape.",
+    "activity": "Give participants a shape and ask them to transform it into something else.",
+    "difficulty": "Easy",
+    "tags": ["Visual Thinking", "Art"]
+  },
+  {
+    "id": 17,
+    "title": "Collaborative Creation",
+    "description": "Work with others to build something amazing.",
+    "example": "What can you create if everyone adds one idea?",
+    "activity": "Create a story, structure, or project with each person contributing one part.",
+    "difficulty": "Medium",
+    "tags": ["Collaboration", "Creativity"]
+  },
+  {
+    "id": 18,
+    "title": "Impossible Inventions",
+    "description": "Invent something that seems ridiculous.",
+    "example": "What if you could invent a machine to talk to animals?",
+    "activity": "Draw or explain a fantastical invention.",
+    "difficulty": "Hard",
+    "tags": ["Invention", "Creativity"]
+  },
+  {
+    "id": 19,
+    "title": "Time Traveler’s Guide",
+    "description": "Think about life in a different time.",
+    "example": "How would people solve problems 100 years ago?",
+    "activity": "Write about what life would be like in the past or future.",
+    "difficulty": "Medium",
+    "tags": ["Imagination", "History"]
+  },
+  {
+    "id": 20,
+    "title": "Superpower Problems",
+    "description": "Use superpowers to solve everyday problems.",
+    "example": "What if you could stop time?",
+    "activity": "Brainstorm how you’d use a superpower to solve challenges.",
+    "difficulty": "Easy",
+    "tags": ["Imagination", "Problem Solving"]
+  }
+]

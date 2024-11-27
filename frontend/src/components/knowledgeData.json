@@ -1,0 +1,116 @@
+[
+    {
+      "id": 16,
+      "title": "The Importance of Saying “Please,” “Thank You,” and “Sorry”",
+      "description": "Learn why good manners like saying please, thank you, and sorry are essential.",
+      "details": "Good manners are more than just polite words; they are a way to show respect and kindness to others. Saying 'please' shows you value someone's help or time. Saying 'thank you' expresses gratitude and makes others feel appreciated, encouraging them to help again. Saying 'sorry' shows you acknowledge mistakes and care about others' feelings. These simple words can strengthen relationships and spread positivity.\n\n**Fun Fact:** Did you know that saying 'thank you' can improve your own happiness? Research shows that gratitude boosts your mood and reduces stress.",
+      "image": "/images/manners.webp"
+    },
+    {
+      "id": 15,
+      "title": "How to Introduce Yourself Confidently",
+      "description": "Tips for confidently introducing yourself in any situation.",
+      "details": "Introducing yourself confidently helps you make a great first impression. Start with a smile and say, 'Hi, my name is [your name].' Share an interesting fact about yourself, like your favorite hobby or a fun experience. Keep eye contact and speak clearly to show confidence. Practicing in front of a mirror or with friends can help you improve.\n\n**Fun Fact:** People remember you better if you share a unique detail about yourself, like 'I love making origami animals!'",
+      "image": "/images/introduction.webp"
+    },
+    {
+      "id": 14,
+      "title": "Major Festivals and Traditions in Your Culture and Others",
+      "description": "Explore festivals like Diwali, Christmas, and more!",
+      "details": "Festivals are celebrations that bring people together to honor traditions, culture, and community. For example, Diwali is the Hindu festival of lights, symbolizing the victory of light over darkness. Christmas celebrates the birth of Jesus Christ and is marked by gift-giving and decorating trees. Eid is a festival of joy and gratitude observed by Muslims. Learning about different festivals helps us appreciate diversity and understand how people express their joy and beliefs.\n\n**Fun Fact:** Holi, the festival of colors, was originally celebrated to mark the arrival of spring and the victory of good over evil. It’s now one of the most colorful and fun festivals worldwide!",
+      "image": "/images/festivals.webp"
+    },
+    {
+      "id": 13,
+      "title": "National Symbols (Flag, Anthem, and Emblem)",
+      "description": "Learn about your country's flag, anthem, and emblem.",
+      "details": "National symbols represent the identity, pride, and heritage of a country. The flag is a visual representation of a country's values and history. For example, the U.S. flag's stars represent its 50 states, while the stripes signify the original 13 colonies. National anthems inspire unity and patriotism. Emblems often feature animals, plants, or symbols unique to a country's history.\n\n**Fun Fact:** India's national emblem features four lions, symbolizing power, courage, and pride, and it’s inspired by the ancient Ashoka Pillar.",
+      "image": "/images/national-symbols.webp"
+    },
+    {
+      "id": 12,
+      "title": "Importance of Plants and Animals in the Ecosystem",
+      "description": "Discover why plants and animals are essential for life.",
+      "details": "Plants and animals are the building blocks of our ecosystem. Plants provide oxygen, food, and shelter for countless species, including humans. They also absorb carbon dioxide, helping regulate the Earth's temperature. Animals play roles like pollinating plants, dispersing seeds, and maintaining food chains. For example, bees pollinate crops that produce one-third of the food we eat.\n\n**Fun Fact:** Did you know trees can 'talk'? They release chemical signals to warn nearby plants of dangers like pests.",
+      "image": "/images/plants-animals.webp"
+    },
+    {
+      "id": 11,
+      "title": "Water Cycle Basics",
+      "description": "Understand how water moves through nature.",
+      "details": "The water cycle is a fascinating natural process. It starts with evaporation, where the sun heats water in oceans, lakes, and rivers, turning it into vapor. This vapor cools in the sky and forms clouds (condensation). When clouds are heavy with water droplets, they release precipitation as rain, snow, or hail. This water replenishes rivers, lakes, and soil, continuing the cycle.\n\n**Fun Fact:** The water you drink today might have been sipped by dinosaurs millions of years ago! The water cycle keeps the same water circulating endlessly.",
+      "image": "/images/water-cycle.webp"
+    },
+    {
+      "id": 10,
+      "title": "Simple Facts About the Solar System",
+      "description": "Learn cool facts about planets, the sun, and the moon.",
+      "details": "Our solar system is a fascinating neighborhood in space! It has eight planets orbiting the sun, which is a giant star and the system's center. Earth is the third planet and the only one known to support life. The moon, Earth's satellite, controls ocean tides through its gravitational pull. Other planets like Jupiter have over 79 moons, and Saturn is famous for its beautiful rings made of ice and rock.\n\n**Fun Fact:** A day on Venus is longer than a year! It takes Venus longer to rotate on its axis than to orbit the sun.",
+      "image": "/images/solar-system.webp"
+    },
+    {
+      "id": 9,
+      "title": "Difference Between Living and Non-Living Things",
+      "description": "Understand what makes something alive or not.",
+      "details": "Living things can grow, move, breathe, and reproduce, like humans, animals, and plants. Non-living things, like rocks or toys, cannot do these things. Living things need food, water, and air to survive, while non-living things do not. For example, a bird is living because it can eat and lay eggs, but a chair is non-living because it cannot move or grow.\n\n**Fun Fact:** Coral reefs might look like rocks, but they are actually made up of tiny living organisms called polyps!",
+      "image": "/images/living-nonliving.webp"
+    },
+    {
+      "id": 8,
+      "title": "Five Senses and Major Parts of the Body",
+      "description": "Learn about your senses and body parts.",
+      "details": "Our five senses help us understand the world. Sight lets us see colors and shapes, hearing allows us to listen to sounds, smell helps us enjoy fragrances, taste lets us enjoy food, and touch helps us feel textures. Major body parts include the brain (controls the body), the heart (pumps blood), and the lungs (help us breathe).\n\n**Fun Fact:** Your nose can detect over 1 trillion different smells, and your tongue has about 10,000 taste buds!",
+      "image": "/images/body-senses.webp"
+    },
+    {
+      "id": 7,
+      "title": "Weather Basics",
+      "description": "Learn about different weather types like sunny, rainy, and snowy.",
+      "details": "Weather refers to the daily conditions of the atmosphere, like temperature, wind, and precipitation. Sunny weather occurs when the sky is clear and the sun shines brightly. Rainy weather brings water droplets falling from clouds, and snowy weather happens when the temperature is so cold that rain turns into snow.\n\n**Fun Fact:** The highest temperature ever recorded on Earth was 134°F (56.7°C) in Death Valley, USA, in 1913!",
+      "image": "/images/weather.webp"
+    },
+        {
+          "id": 6,
+          "title": "Name of the Country, State, and City",
+          "description": "Learn where you live in the world.",
+          "details": "Knowing the name of your country, state, and city is important because it’s part of your identity. Your country represents where you belong on the world map, while your state and city define your local community. This knowledge helps you understand geography and cultural heritage. For example, India is a country with 28 states, each having its own unique traditions and languages.\n\n**Fun Fact:** There are 195 countries in the world today, and the smallest is Vatican City, which is only 0.44 square kilometers!",
+          "image": "/images/location.webp"
+        },
+        {
+          "id": 5,
+          "title": "Fire and Road Safety",
+          "description": "Important safety tips to stay safe from fire and traffic.",
+          "details": "Fire and road safety are crucial for everyone. To stay safe from fires, never play with matches or lighters. Always have a fire escape plan and know the location of fire extinguishers. On the road, always follow traffic rules, wear a helmet if you're cycling, and use zebra crossings to cross the road. Look both ways before stepping onto the street.\n\n**Fun Fact:** Traffic lights were first installed in London in 1868, but they used gas lamps and exploded shortly after being used!",
+          "image": "/images/safety.webp"
+        },
+        {
+          "id": 4,
+          "title": "Why You Should Have Parents’ Contact Numbers",
+          "description": "Learn why it's important to keep your parents' details handy.",
+          "details": "Keeping your parents' contact numbers with you ensures you can reach them in emergencies. It’s helpful if you get lost or need help when they’re not around. Memorize at least one parent's number and keep a written note in your school bag. Also, knowing your home address and emergency contacts makes it easier for others to help you if needed.\n\n**Fun Fact:** The first phonebook ever printed in 1878 had only 50 numbers, and it was just a single sheet of cardboard!",
+          "image": "/images/parents-contact.webp"
+        },
+        {
+          "id": 3,
+          "title": "Local Emergency Numbers",
+          "description": "Know the numbers to call in an emergency.",
+          "details": "Every country has specific emergency numbers for police, fire, and medical help. In the USA, you can call 911. In India, the emergency numbers include 100 for police, 101 for fire, and 102 for an ambulance. Memorizing these numbers can save lives during accidents or natural disasters. Make sure to stay calm and clearly explain the situation when you call.\n\n**Fun Fact:** Sweden has the oldest known national emergency number, 90000, introduced in 1956!",
+          "image": "/images/emergency-numbers.webp"
+        },
+        {
+          "id": 2,
+          "title": "Different Traffic Signals and Their Meanings",
+          "description": "Understand what traffic lights mean.",
+          "details": "Traffic signals are important to ensure safety on the roads. The red light means stop, the yellow light means prepare to stop or proceed with caution, and the green light means go. Pedestrian crossings are marked with white lines to ensure safe passage for people walking. Learning these signals and obeying them helps avoid accidents and keep everyone safe.\n\n**Fun Fact:** Japan uses blue traffic lights instead of green because their language traditionally did not distinguish between blue and green!",
+          "image": "/images/traffic-signals.webp"
+        },
+        {
+          "id": 1,
+          "title": "Why Cats Sleep With Us",
+          "description": "Find out why your furry friend loves sleeping by your side.",
+          "details": "Cats sleep with us because they feel safe, warm, and loved in our presence. They are territorial animals, so sleeping close to you helps them bond and mark their territory. Your bed provides comfort and a sense of security for your cat. Plus, your steady breathing and heartbeat are soothing for them!\n\n**Fun Fact:** Cats spend about 16 hours a day sleeping, and kittens sleep even more, up to 20 hours daily!",
+          "image": "/images/cats-sleep.webp"
+        }      
+
+  ]
+  

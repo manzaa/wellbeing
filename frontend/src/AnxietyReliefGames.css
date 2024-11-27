@@ -1,0 +1,115 @@
+/* src/AnxietyReliefGames.css */
+.app {
+  text-align: center;
+  font-family: 'Arial, sans-serif';
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #80deea;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #4dd0e1;
+}
+
+.game-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Breathe with Me */
+.breathe-container .circle {
+  width: 100px;
+  height: 100px;
+  background-color: #80deea;
+  border-radius: 50%;
+  transition: transform 4s ease-in-out;
+}
+
+.breathe-container .expand {
+  transform: scale(1.5);
+}
+
+.breathe-container .contract {
+  transform: scale(1);
+}
+
+/* Relaxing Color Change */
+.color-change-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  transition: background-color 3s ease-in-out;
+}
+
+/* Calm Counting */
+.counting-container .count {
+  font-size: 3rem;
+  color: #4caf50;
+}
+
+/* Positive Affirmations */
+.affirmation-container p {
+  font-size: 1.5rem;
+  color: #ff7043;
+}
+
+/* Counting Stars */
+.stars-container {
+  text-align: center;
+}
+
+.stars-container .star-field {
+  width: 200px;
+  height: 200px;
+  background-color: #001f3f;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars-container .star {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,74 @@
+{
+    "name": "audio-recorder",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@date-io/date-fns": "^3.0.0",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@ffmpeg/ffmpeg": "^0.12.10",
+        "@lottiefiles/react-lottie-player": "^3.5.4",
+        "@mui/icons-material": "^5.8.4",
+        "@mui/material": "^5.16.7",
+        "@mui/x-date-pickers": "^7.22.1",
+        "@react-spring/web": "^9.7.5",
+        "@react-three/drei": "^9.116.0",
+        "@react-three/fiber": "^8.17.10",
+        "@stripe/react-stripe-js": "^3.0.0",
+        "@stripe/stripe-js": "^5.2.0",
+        "audio-converter": "^1.0.13",
+        "axios": "^1.7.7",
+        "bcryptjs": "^2.4.3",
+        "d3-geo": "^3.1.1",
+        "framer-motion": "^4.1.17",
+        "lamejs": "^1.2.0",
+        "lottie-react": "^2.4.0",
+        "nvm": "^0.0.4",
+        "react": "^18.3.1",
+        "react-canvas-draw": "^1.2.1",
+        "react-confetti": "^6.1.0",
+        "react-dnd": "^16.0.1",
+        "react-dnd-html5-backend": "^16.0.1",
+        "react-dom": "^18.3.1",
+        "react-lottie": "^1.2.9",
+        "react-router-dom": "^6.27.0",
+        "react-scripts": "^5.0.0",
+        "react-simple-maps": "^1.0.0",
+        "react-sound": "^1.2.0",
+        "react-speech-recognition": "^3.10.0",
+        "react-spring": "^9.7.4",
+        "wav-encoder": "^1.0.0"
+    },
+    "devDependencies": {
+        "@craco/craco": "^7.1.0",
+        "@types/wav-encoder": "^1.0.0"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "resolutions": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
+}

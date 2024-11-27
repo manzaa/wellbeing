@@ -1,0 +1,156 @@
+/* src/index.css */
+
+/* Reset some default styles for consistency across browsers */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Root container styling */
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* General Layout Styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic Button Styling */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Bar Styles */
+nav {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form button {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Global CSS for layout */
+.app {
+    display: flex;
+}
+
+.content {
+    margin-left: 250px; /* Sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.login-content {
+    /* Center the content if on login page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* CSS for the sidebar container */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    background-color: #2d3e50; /* Change as needed */
+    width: 200px; /* Adjust to fit your layout */
+    height: 100vh;
+}
+
+.sidebar a {
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    color: #f5f5f5;
+}

@@ -1,0 +1,3302 @@
+[
+    {
+        "id": 73,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 298,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 33,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 276,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 40,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 147,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 149,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 209,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 60,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 124,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 138,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 120,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 46,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 179,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 210,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 41,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 101,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 280,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 140,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 78,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 28,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 48,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 3,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 151,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 99,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 221,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 81,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 11,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 84,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 105,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 263,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 21,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 236,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 118,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 219,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 197,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 67,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 182,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 297,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 186,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 77,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 92,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 284,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 47,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 127,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 133,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 232,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 148,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 213,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 290,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 162,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 70,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 45,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 282,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 185,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 215,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 199,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 50,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 52,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 188,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 251,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 189,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 96,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 20,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 193,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 267,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 4,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 238,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 217,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 167,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 15,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 211,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 72,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 200,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 7,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 24,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 285,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 206,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 264,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 183,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 119,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 248,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 49,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 25,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 93,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 75,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 223,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 157,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 59,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 22,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 95,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 169,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 225,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 85,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 168,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 222,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 212,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 281,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 69,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 23,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 71,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 293,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 266,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 158,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 58,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 54,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 288,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 240,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 153,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 227,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 110,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 12,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 208,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 98,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 112,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 42,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 295,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 94,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 64,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 286,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 205,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 143,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 161,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 271,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 244,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 30,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 154,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 13,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 146,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 195,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 220,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 175,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 121,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 253,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 55,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 269,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 152,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 274,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 97,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 27,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 249,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 139,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 126,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 103,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 65,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 29,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 270,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 86,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 79,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 247,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 8,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 117,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 17,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 18,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 125,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 113,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 218,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 192,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 66,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 68,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 36,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 145,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 198,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 233,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 44,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 268,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 88,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 228,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 31,
+        "type": "Mental",
+        "question": "How can you reduce stress?",
+        "options": [
+            "Practice deep breathing",
+            "Ignore stress"
+        ],
+        "answer": "Practice deep breathing",
+        "details": "The correct answer is 'Practice deep breathing'. This supports mental wellbeing."
+    },
+    {
+        "id": 102,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 184,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 62,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 104,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 106,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 34,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 299,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 76,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 128,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 177,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 111,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 256,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 278,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 187,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 239,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 296,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 173,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 287,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 2,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 89,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 131,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 134,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 19,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 261,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 214,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 32,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 237,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 259,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 203,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 229,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 107,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 172,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 257,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 9,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 14,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 155,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 277,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 294,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 136,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 87,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 283,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 142,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 226,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 130,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 166,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 265,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 109,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 108,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 196,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 255,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 181,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 137,
+        "type": "Social",
+        "question": "Why should you help others?",
+        "options": [
+            "It builds bonds",
+            "It\u2019s pointless"
+        ],
+        "answer": "It builds bonds",
+        "details": "The correct answer is 'It builds bonds'. This supports social wellbeing."
+    },
+    {
+        "id": 254,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 275,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 194,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 141,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 163,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 51,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 165,
+        "type": "Emotional",
+        "question": "What reduces anxiety?",
+        "options": [
+            "Deep breathing",
+            "Worrying more"
+        ],
+        "answer": "Deep breathing",
+        "details": "The correct answer is 'Deep breathing'. This supports emotional wellbeing."
+    },
+    {
+        "id": 82,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 38,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 201,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 26,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 6,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 191,
+        "type": "Emotional",
+        "question": "Why is sharing feelings helpful?",
+        "options": [
+            "Builds understanding",
+            "Creates drama"
+        ],
+        "answer": "Builds understanding",
+        "details": "The correct answer is 'Builds understanding'. This supports emotional wellbeing."
+    },
+    {
+        "id": 180,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 207,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 234,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 252,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 160,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 83,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 292,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 204,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 35,
+        "type": "Mental",
+        "question": "What increases mental clarity?",
+        "options": [
+            "Mindfulness",
+            "Overthinking"
+        ],
+        "answer": "Mindfulness",
+        "details": "The correct answer is 'Mindfulness'. This supports mental wellbeing."
+    },
+    {
+        "id": 216,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 5,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 10,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 279,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 91,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 262,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 272,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 43,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 241,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 300,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 57,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 114,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 260,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 174,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 39,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 56,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 116,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 129,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 156,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 289,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 164,
+        "type": "Emotional",
+        "question": "Why is forgiveness important?",
+        "options": [
+            "It heals relationships",
+            "It creates weakness"
+        ],
+        "answer": "It heals relationships",
+        "details": "The correct answer is 'It heals relationships'. This supports emotional wellbeing."
+    },
+    {
+        "id": 53,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 250,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 63,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 190,
+        "type": "Emotional",
+        "question": "How can you cheer up?",
+        "options": [
+            "Do something fun",
+            "Stay upset"
+        ],
+        "answer": "Do something fun",
+        "details": "The correct answer is 'Do something fun'. This supports emotional wellbeing."
+    },
+    {
+        "id": 1,
+        "type": "Physical",
+        "question": "What is the best way to stay fit?",
+        "options": [
+            "Exercise daily",
+            "Avoid activity"
+        ],
+        "answer": "Exercise daily",
+        "details": "The correct answer is 'Exercise daily'. This supports physical wellbeing."
+    },
+    {
+        "id": 100,
+        "type": "Physical",
+        "question": "What foods boost energy?",
+        "options": [
+            "Fruits and vegetables",
+            "Sugary snacks"
+        ],
+        "answer": "Fruits and vegetables",
+        "details": "The correct answer is 'Fruits and vegetables'. This supports physical wellbeing."
+    },
+    {
+        "id": 159,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 224,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 80,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 243,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 242,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 132,
+        "type": "Mental",
+        "question": "Why is positive thinking beneficial?",
+        "options": [
+            "Boosts mood",
+            "Has no effect"
+        ],
+        "answer": "Boosts mood",
+        "details": "The correct answer is 'Boosts mood'. This supports mental wellbeing."
+    },
+    {
+        "id": 171,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 90,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 135,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 230,
+        "type": "Social",
+        "question": "How can you make new friends?",
+        "options": [
+            "Join activities",
+            "Avoid people"
+        ],
+        "answer": "Join activities",
+        "details": "The correct answer is 'Join activities'. This supports social wellbeing."
+    },
+    {
+        "id": 115,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 61,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    },
+    {
+        "id": 16,
+        "type": "Social",
+        "question": "What shows respect to others?",
+        "options": [
+            "Listening actively",
+            "Interrupting"
+        ],
+        "answer": "Listening actively",
+        "details": "The correct answer is 'Listening actively'. This supports social wellbeing."
+    },
+    {
+        "id": 231,
+        "type": "Social",
+        "question": "Why is teamwork important?",
+        "options": [
+            "Achieves goals",
+            "Creates problems"
+        ],
+        "answer": "Achieves goals",
+        "details": "The correct answer is 'Achieves goals'. This supports social wellbeing."
+    },
+    {
+        "id": 150,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 74,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 245,
+        "type": "Physical",
+        "question": "How does sleep affect health?",
+        "options": [
+            "Repairs body",
+            "Does nothing"
+        ],
+        "answer": "Repairs body",
+        "details": "The correct answer is 'Repairs body'. This supports physical wellbeing."
+    },
+    {
+        "id": 170,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 144,
+        "type": "Emotional",
+        "question": "How does gratitude improve mood?",
+        "options": [
+            "Focuses on positives",
+            "Highlights negatives"
+        ],
+        "answer": "Focuses on positives",
+        "details": "The correct answer is 'Focuses on positives'. This supports emotional wellbeing."
+    },
+    {
+        "id": 258,
+        "type": "Social",
+        "question": "What strengthens family relationships?",
+        "options": [
+            "Spending time together",
+            "Ignoring family"
+        ],
+        "answer": "Spending time together",
+        "details": "The correct answer is 'Spending time together'. This supports social wellbeing."
+    },
+    {
+        "id": 202,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 122,
+        "type": "Physical",
+        "question": "Why is drinking water important?",
+        "options": [
+            "Keeps you hydrated",
+            "No benefit"
+        ],
+        "answer": "Keeps you hydrated",
+        "details": "The correct answer is 'Keeps you hydrated'. This supports physical wellbeing."
+    },
+    {
+        "id": 123,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 178,
+        "type": "Mental",
+        "question": "How does journaling help?",
+        "options": [
+            "Clears the mind",
+            "Wastes time"
+        ],
+        "answer": "Clears the mind",
+        "details": "The correct answer is 'Clears the mind'. This supports mental wellbeing."
+    },
+    {
+        "id": 273,
+        "type": "Mental",
+        "question": "What activity improves focus?",
+        "options": [
+            "Reading books",
+            "Playing too many games"
+        ],
+        "answer": "Reading books",
+        "details": "The correct answer is 'Reading books'. This supports mental wellbeing."
+    },
+    {
+        "id": 176,
+        "type": "Mental",
+        "question": "Why is gratitude important?",
+        "options": [
+            "It creates positivity",
+            "It\u2019s not important"
+        ],
+        "answer": "It creates positivity",
+        "details": "The correct answer is 'It creates positivity'. This supports mental wellbeing."
+    },
+    {
+        "id": 246,
+        "type": "Physical",
+        "question": "Why is stretching important?",
+        "options": [
+            "Prevents injuries",
+            "Has no effect"
+        ],
+        "answer": "Prevents injuries",
+        "details": "The correct answer is 'Prevents injuries'. This supports physical wellbeing."
+    },
+    {
+        "id": 235,
+        "type": "Emotional",
+        "question": "How can you calm your emotions?",
+        "options": [
+            "Practice mindfulness",
+            "Ignore them"
+        ],
+        "answer": "Practice mindfulness",
+        "details": "The correct answer is 'Practice mindfulness'. This supports emotional wellbeing."
+    },
+    {
+        "id": 291,
+        "type": "Physical",
+        "question": "How does regular exercise help?",
+        "options": [
+            "Builds strength",
+            "Makes you tired"
+        ],
+        "answer": "Builds strength",
+        "details": "The correct answer is 'Builds strength'. This supports physical wellbeing."
+    },
+    {
+        "id": 37,
+        "type": "Social",
+        "question": "What builds strong friendships?",
+        "options": [
+            "Trust and kindness",
+            "Being selfish"
+        ],
+        "answer": "Trust and kindness",
+        "details": "The correct answer is 'Trust and kindness'. This supports social wellbeing."
+    }
+]
