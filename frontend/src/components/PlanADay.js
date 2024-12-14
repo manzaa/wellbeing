@@ -18,10 +18,10 @@ const PlanADay = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const { data: challengeData } = await axios.get('http://localhost:5000/api/planADay/challenge');
+            const { data: challengeData } = await axios.get(process.env.REACT_APP_API_URL + '/api/planADay/challenge');
             setChallenge(challengeData);
 
-            const { data: activitiesData } = await axios.get('http://localhost:5000/api/planADay/activities');
+            const { data: activitiesData } = await axios.get(process.env.REACT_APP_API_URL + '/api/planADay/activities');
             setActivities(activitiesData);
 
             const { data: badgesData } = await axios.get(`${process.env.REACT_APP_API_URL}/api/planADay/badges/${userId}`); //userid

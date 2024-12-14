@@ -119,7 +119,7 @@ const DoodleJournal = () => {
 
     return (
         <Box sx={{ p: 4 }}>
-            <Button startIcon={<Home />} onClick={() => navigate('/kidpowerhub')} sx={{ mb: 2 }}>Back to Hub</Button>
+            <Button startIcon={<Home />} onClick={() => navigate('/premium')} sx={{ mb: 2 }}>Back to Hub</Button>
             <Typography variant="h3" color="primary" textAlign="center" gutterBottom>
                 Doodle Journal
             </Typography>

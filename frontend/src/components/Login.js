@@ -29,7 +29,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(process.env.REACT_APP_API_URL + '/api/auth/login', { email, password });
+            const response = await axios.post(process.env.REACT_APP_API_URL + '/api/auth/login', { email });
             const { token } = response.data;
             localStorage.setItem('token', token);
             localStorage.setItem('subscribed', response.data.subscribed);

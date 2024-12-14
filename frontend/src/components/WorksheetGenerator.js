@@ -102,7 +102,7 @@ const WorksheetGenerator = () => {
 
     return (
         <Box sx={{ padding: 4 }}>
-                        <Button startIcon={<Home />} onClick={() => navigate('/kidpowerhub')} sx={{ mb: 2 }}>Back to Hub</Button>
+                        <Button startIcon={<Home />} onClick={() => navigate('/premium')} sx={{ mb: 2 }}>Back to Hub</Button>
 
             <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 'bold', color: '#3f51b5' }}>
                 Kids Printable Worksheets

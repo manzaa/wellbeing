@@ -10,7 +10,8 @@ const Sudoku = () => {
 
   const fetchSudoku = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/sudoku');
+	    console.log("sudoku");
+      const response = await axios.get(process.env.REACT_APP_API_URL + '/api/sudoku');
       const { puzzle, solution } = response.data;
       setPuzzle(puzzle);
       setSolution(solution);

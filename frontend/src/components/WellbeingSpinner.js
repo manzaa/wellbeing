@@ -81,7 +81,7 @@ const WellbeingSpinner = () => {
 
     return (
         <Box display="flex" flexDirection="column" alignItems="center" sx={{ mt: 5 }}>
-            <Button startIcon={<Home />} onClick={() => navigate('/kidpowerhub')} sx={{ mb: 2 }}>Back to Hub</Button>
+            <Button startIcon={<Home />} onClick={() => navigate('/premium')} sx={{ mb: 2 }}>Back to Hub</Button>
 
             {showConfetti && <Confetti recycle={false} />}
             
