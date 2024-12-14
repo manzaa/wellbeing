@@ -30,7 +30,7 @@ const cookingRoutes = require('./routes/cookingRoutes');
 const mysql = require('mysql2');
 const bcrypt = require('bcryptjs');
 const bodyParser = require('body-parser');
-// const crypto = require('crypto');
+const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const sudoku = require('sudoku');
 const User = require('./models/User'); // Adjust path as needed
@@ -169,14 +169,14 @@ app.post('/api/signup', async (req, res) => {
 
     // Hash the password and generate a verification token
     //const hashedPassword = await bcrypt.hash(password, 10);
-    const verificationToken = bcrypt.randomBytes(32).toString('hex');
+    const verificationToken = crypto.randomBytes(32).toString('hex');
 
     // Insert the new user into the database
     const insertQuery = 'INSERT INTO users (username, email, password, verification_token) VALUES (?, ?, ?, ?)';
     await db.query(insertQuery, [username, email, password, verificationToken]);
 
     // Send verification email
-    const verificationUrl = `http://localhost:5000/api/verify-email?token=${verificationToken}`;
+    const verificationUrl = `http://livewellwellbeing.com:5000/api/verify-email?token=${verificationToken}`;
     const mailOptions = {
       from: 'manzaad@gmail.com',
       to: email,
@@ -285,7 +285,7 @@ app.post('/api/auth/reset-password', async (req, res) => {
 
       // Find user by the reset token and check expiration
       const [rows] =  await db.query(
-          `SELECT * FROM Users WHERE verification_token = ?`,
+          `SELECT * FROM users WHERE verification_token = ?`,
           [hashedToken]
       );
 

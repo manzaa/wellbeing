@@ -14,7 +14,7 @@ exports.login = async (req, res) => {
 
     try {
         // Check if user exists
-        const [user] = await db.query('SELECT * FROM Users WHERE is_verified = 1 AND email = ?', [email]);
+        const [user] = await db.query('SELECT * FROM users WHERE is_verified = 1 AND email = ?', [email]);
         if (user.length === 0) {
             logger.info(`Failed login attempt for email: ${email}`);
             return res.status(401).json({ message: 'Invalid email or password' });
