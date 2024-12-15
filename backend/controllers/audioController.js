@@ -32,7 +32,7 @@ exports.createAudioRecording = async (req, res) => {
         fs.writeFileSync(filePath, req.file.buffer);
 
         // Construct the URL path to access the file
-        const audio_url = `https://livewellwellbeing.com:5000/uploads/${audioFilename}`;
+        const audio_url = `https://livewellwellbeing.com/uploads/${audioFilename}`;
 
         // Save recording metadata and file path to database
         const newAudio = await AudioRecording.create(
