@@ -230,11 +230,11 @@ app.post('/api/auth/forgot-password', async (req, res) => {
 
   // Simulate sending a reset password email
   // Here, you would generate a token and send an email to the user
-  const resetToken = bcrypt.randomBytes(32).toString('hex');
-  const resetLink = `https://livewellwellbeing.com:3000/reset-password/${resetToken}`;
+  const resetToken = crypto.randomBytes(32).toString('hex');
+  const resetLink = `https://livewellwellbeing.com/reset-password/${resetToken}`;
 
   // Save the reset token to the database (hashed)
-  const hashedToken = bcrypt.createHash('sha256').update(resetToken).digest('hex');
+  const hashedToken = crypto.createHash('sha256').update(resetToken).digest('hex');
   const expiration = Date.now() + 3600000; // 1 hour ---> add this logic later to deactivate link or token
   // await user.save();
 
@@ -278,7 +278,7 @@ app.post('/api/auth/reset-password', async (req, res) => {
 
   try {
       // Hash the provided token to match the one stored in the database
-      const hashedToken = bcrypt.createHash('sha256').update(token).digest('hex');
+      const hashedToken = crypto.createHash('sha256').update(token).digest('hex');
 
       // Establish a database connection
       // const connection =  mysql.createConnection(db);
@@ -292,7 +292,7 @@ app.post('/api/auth/reset-password', async (req, res) => {
       const user = rows[0];
 
       if (!user) {
-           await db.end();
+          //await db.end();
           return res.status(400).json({ message: 'Invalid or expired token.' });
       }
 
@@ -305,7 +305,7 @@ app.post('/api/auth/reset-password', async (req, res) => {
           [hashedPassword, user.id]
       );
 
-       await db.end();
+       //await db.end();
 
       res.json({ message: 'Password reset successful. You can now log in.' });
   } catch (error) {
