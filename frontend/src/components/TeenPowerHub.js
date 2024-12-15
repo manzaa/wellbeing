@@ -109,7 +109,7 @@ const KidPowerHub = () => {
             </Box>
 
             {/* Interactive Activity Cards */}
-            <Container sx={{ py: 6, filter: isSubscribed ? 'none' : 'blur(5px)' }}>
+            <Container sx={{ py: 6, filter: isSubscribed === 1 ? 'none' : 'blur(5px)' }}>
                 <Typography variant="h4" color="primary" textAlign="center" mb={4}>
                     Choose Your Activity
                 </Typography>
@@ -172,7 +172,7 @@ const KidPowerHub = () => {
             </Container>
 
             {/* Subscription Overlay */}
-            {!isSubscribed && (
+            {isSubscribed == 0 && (
                 <Box
                     sx={{
                         position: 'absolute',
