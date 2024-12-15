@@ -176,7 +176,7 @@ app.post('/api/signup', async (req, res) => {
     await db.query(insertQuery, [username, email, password, verificationToken]);
 
     // Send verification email
-    const verificationUrl = `https://livewellwellbeing.com:5000/api/verify-email?token=${verificationToken}`;
+    const verificationUrl = `https://livewellwellbeing.com/api/verify-email?token=${verificationToken}`;
     const mailOptions = {
       from: 'manzaad@gmail.com',
       to: email,
