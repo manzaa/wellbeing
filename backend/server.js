@@ -176,7 +176,7 @@ app.post('/api/signup', async (req, res) => {
     await db.query(insertQuery, [username, email, password, verificationToken]);
 
     // Send verification email
-    const verificationUrl = `http://livewellwellbeing.com:5000/api/verify-email?token=${verificationToken}`;
+    const verificationUrl = `https://livewellwellbeing.com:5000/api/verify-email?token=${verificationToken}`;
     const mailOptions = {
       from: 'manzaad@gmail.com',
       to: email,
@@ -231,7 +231,7 @@ app.post('/api/auth/forgot-password', async (req, res) => {
   // Simulate sending a reset password email
   // Here, you would generate a token and send an email to the user
   const resetToken = bcrypt.randomBytes(32).toString('hex');
-  const resetLink = `http://localhost:3000/reset-password/${resetToken}`;
+  const resetLink = `https://livewellwellbeing.com:3000/reset-password/${resetToken}`;
 
   // Save the reset token to the database (hashed)
   const hashedToken = bcrypt.createHash('sha256').update(resetToken).digest('hex');
