@@ -17,8 +17,11 @@ const videos = [
   // Add other videos as needed
 ];
 
-const isSubscribed = localStorage.getItem('subscribed'); // Check subscription status
+// Fix: Ensure isSubscribed is correctly interpreted as null or 1
+const isSubscribed = localStorage.getItem('subscribed') === '1' ? 1 : null;
+
 const VideoGallery = () => {
+  console.log("subscribed", isSubscribed);
   const navigate = useNavigate();
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const [showSubscribeAlert, setShowSubscribeAlert] = useState(false);
@@ -37,7 +40,7 @@ const VideoGallery = () => {
   };
 
   const handleNextClick = () => {
-    if (isSubscribed == 0) {
+    if (isSubscribed == null) {
       setShowSubscribeAlert(true); // Show subscribe alert for unsubscribed users
     } else if (currentVideoIndex < videos.length - 1) {
       setCurrentVideoIndex(currentVideoIndex + 1); // Move to the next video if subscribed
@@ -92,14 +95,14 @@ const VideoGallery = () => {
             variant="contained"
             color="primary"
             onClick={handleNextClick}
-            disabled={isSubscribed == 0 && currentVideoIndex === 0} // Disable Next only if it's the first video for unsubscribed users
+            disabled={isSubscribed === null && currentVideoIndex === 0} // Disable Next only if it's the first video for unsubscribed users
           >
             Next
           </Button>
         </CardActions>
       </Box>
 
-      {isSubscribed == 0 && (
+      {isSubscribed === null && (
         <Box sx={{ textAlign: 'center', mt: 4 }}>
           <Button variant="contained" color="secondary" onClick={handleSubscribe}>
             Subscribe Now
@@ -108,7 +111,7 @@ const VideoGallery = () => {
       )}
 
       {/* Show Subscribe Alert */}
-      {showSubscribeAlert && isSubscribed == 0 && (
+      {showSubscribeAlert && isSubscribed === null && (
         <Alert
           severity="warning"
           onClose={() => setShowSubscribeAlert(false)} // Close the alert

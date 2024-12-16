@@ -196,20 +196,28 @@ app.post('/api/signup', async (req, res) => {
 // Email verification route
 app.get('/api/verify-email', (req, res) => {
   const { token } = req.query;
+  console.log(token);
 
-  const query = 'UPDATE users SET is_verified = TRUE, verification_token = NULL WHERE verification_token = ?';
-  db.query(query, [token], (err, result) => {
+  const query1 = 'UPDATE users SET is_verified = TRUE, verification_token = NULL WHERE verification_token = ?';
+  db.query(query1, [token], (err, result) => {
+    console.log("updated!!");
     if (err) {
       console.error('Error verifying email:', err);
       return res.status(500).send('Email verification failed');
+    } else {
+      console.log("updated succesfully!!");  
     }
 
     if (result.affectedRows === 0) {
+      console.error("error updating");
       return res.status(400).send('Invalid or expired token');
     }
 
+    console.log("redirecting");
+    //return res.redirect('/');
     res.send('Email verified successfully. You can now <a href="/login">log in</a>.');
   });
+  return res.redirect('/');  
 });
 
 

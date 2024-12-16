@@ -38,7 +38,7 @@ const activities = [
     },
     {
         title: "printable Worksheets",
-        description: `🖍️ **Learn, Color, and Explore! 📝 Fun printable worksheets to make learning exciting and hands-on!** 🎉`,
+        description: `🖍️ **Learn, Color, and Explore! 🖋️ Fun printable worksheets to make learning exciting and hands-on!** 🎉`,
         icon: "/images/print.jpg",
         animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a doodling character animation URL
         route: "/worksheets"
@@ -77,7 +77,7 @@ const activities = [
 
 const KidPowerHub = () => {
     const navigate = useNavigate();
-    const [isSubscribed, setIsSubscribed] = useState(localStorage.getItem('subscribed')); // Assuming we check subscription status here
+    const [isSubscribed, setIsSubscribed] = useState(localStorage.getItem('subscribed') === '1' ? 1 : null); // Fixed subscription check
 
     const handleNavigation = (route) => {
         if (isSubscribed) {
@@ -172,7 +172,7 @@ const KidPowerHub = () => {
             </Container>
 
             {/* Subscription Overlay */}
-            {isSubscribed == 0 && (
+            {isSubscribed === null && (
                 <Box
                     sx={{
                         position: 'absolute',
