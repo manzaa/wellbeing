@@ -5,7 +5,7 @@ import { useAuth } from './AuthContext';
 
 const PrivateRoute = () => {
     const { isAuthenticated } = useAuth();
-    console.log("authenticated", isAuthenticated);
+    // console.log("authenticated", isAuthenticated);
     return isAuthenticated ? <Outlet /> : <Navigate to="/dashboard" />;
 };
 

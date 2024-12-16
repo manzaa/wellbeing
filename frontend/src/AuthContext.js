@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
         // Retrieve token from localStorage on load
         const storedToken = localStorage.getItem('token');
         if (storedToken) {
-            console.log("token12", storedToken);
+            // console.log("token12", storedToken);
             setIsAuthenticated(true);
             setToken(storedToken);
         }
