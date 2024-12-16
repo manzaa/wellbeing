@@ -216,7 +216,8 @@ const KidPowerHub = () => {
     const [isDialogOpen, setDialogOpen] = useState(false);
 
     const handleKnowledgeBaseClick = () => {
-        if (isSubscribed === 1) {
+        console.log(typeof isSubscribed);
+        if (isSubscribed == 1) {
             navigate("/kids-knowledge-base");
         } else {
             setDialogOpen(true); // Open dialog for non-subscribers

@@ -29,7 +29,7 @@ const Login = () => {
 
     useEffect(() => {
         // Initialize Google Analytics
-        ReactGA.initialize('G-XQ129KTYY5');  // Replace with your GA4 Measurement ID
+        ReactGA.initialize('G-2VY5M0E0RC');  // Replace with your GA4 Measurement ID
         ReactGA.send('pageview'); // Track page view when component is mounted
     }, []);
 
