@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useAuth } from '../AuthContext';
 import { useNavigate } from 'react-router-dom';
@@ -19,6 +19,7 @@ import SecurityIcon from '@mui/icons-material/Security';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
 import ChildCareIcon from '@mui/icons-material/ChildCare';
+import ReactGA from 'react-ga4'; // Import the Google Analytics library
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -26,8 +27,15 @@ const Login = () => {
     const navigate = useNavigate();
     const { login } = useAuth();
 
+    useEffect(() => {
+        // Initialize Google Analytics
+        ReactGA.initialize('G-XQ129KTYY5');  // Replace with your GA4 Measurement ID
+        ReactGA.send('pageview'); // Track page view when component is mounted
+    }, []);
+
     const handleLogin = async (e) => {
         e.preventDefault();
+        
         try {
             const response = await axios.post(process.env.REACT_APP_API_URL + '/api/auth/login', { email });
             const { token } = response.data;
@@ -36,12 +44,27 @@ const Login = () => {
             sessionStorage.setItem('userId', response.data.user_id);
             if (token) {
                 login(token);
+                ReactGA.event({ // Track login event
+                    category: 'User',
+                    action: 'Login',
+                    label: 'User Login Success',
+                });
                 navigate('/dashboard');
             } else {
                 alert('Invalid login credentials');
+                ReactGA.event({ // Track login failure event
+                    category: 'User',
+                    action: 'Login',
+                    label: 'User Login Failure',
+                });
             }
         } catch (error) {
             console.error('Login failed:', error.response?.data?.message || error.message);
+            ReactGA.event({ // Track login failure event
+                category: 'User',
+                action: 'Login',
+                label: 'User Login Error',
+            });
         }
     };
 
@@ -61,7 +84,6 @@ const Login = () => {
                     <video
                         autoPlay
                         muted
-                        loop
                         controls
                         controlsList="nodownload"
                         width="100%"

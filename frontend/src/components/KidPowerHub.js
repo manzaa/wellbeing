@@ -10,19 +10,11 @@ import { motion } from 'framer-motion';
 import { Player } from '@lottiefiles/react-lottie-player';
 const activities = [
     {
-        title: "Wellbeing Game",
-        description: "Unleash your Game Skills!",
-        icon: "/images/sudoku.jpg",
-        animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a chef character animation URL
-        route: "/wellbeing"
-    }
-    ,
-    {
-        title: "Stress Relief Games",
-        description: "Find Your Calm: Simple, Soothing Games for Stress Relief 🌿!",
-        icon: "/images/anxiety.webp",
-        animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a chef character animation URL
-        route: "/stress"
+        title: "Parent Respect Game",
+        description: `💖 **Celebrate and Respect! 👪 Discover fun ways to show kindness, appreciation, and respect for your parents every day!** 🌟`,
+        icon: "/images/respect.jpg",
+        animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a doodling character animation URL
+        route: "/parentrespectgame"
     },
     {
         title: "Chef for the Day",
@@ -66,6 +58,22 @@ const activities = [
         animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a planning character animation URL
         route: "/planAday"
     },
+    
+    {
+        title: "Wellbeing Game",
+        description: "Unleash your Game Skills!",
+        icon: "/images/sudoku.jpg",
+        animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a chef character animation URL
+        route: "/wellbeing"
+    }
+    ,
+    {
+        title: "Stress Relief Games",
+        description: "Find Your Calm: Simple, Soothing Games for Stress Relief 🌿!",
+        icon: "/images/anxiety.webp",
+        animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a chef character animation URL
+        route: "/stress"
+    }
     // {
     //     title: "My Feelings Friend",
     //     description: "Check-in on your emotions and reflect on your day.",
@@ -118,13 +126,7 @@ const activities = [
     //     route: "/adventuremap"
     // },
     
-    {
-        title: "Parent Respect Game",
-        description: `💖 **Celebrate and Respect! 👪 Discover fun ways to show kindness, appreciation, and respect for your parents every day!** 🌟`,
-        icon: "/images/respect.jpg",
-        animation: "https://assets3.lottiefiles.com/packages/lf20_ydo1amjm.json", // Replace with a doodling character animation URL
-        route: "/parentrespectgame"
-    },
+    
     {
         title: "Wellbeing Chat Bot",
         description: `💬 **Meet Your Wellbeing Buddy! 🌈 A friendly chatbot here to listen, guide, and help you feel your best every day!** 😊`,
