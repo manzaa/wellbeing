@@ -215,7 +215,7 @@ const Signup = () => {
 
       <Snackbar
         open={openSnackbar}
-        autoHideDuration={6000}
+        autoHideDuration={15000}
         onClose={() => setOpenSnackbar(false)}
       >
         <Alert onClose={() => setOpenSnackbar(false)} severity={snackbarSeverity} sx={{ width: "100%" }}>

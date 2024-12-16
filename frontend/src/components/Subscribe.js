@@ -26,9 +26,9 @@ const Subscribe = () => {
   const [paymentSucceeded, setPaymentSucceeded] = useState(false);
 
   const packages = [
-    { id: 1, name: '3 Months', amount: 399, description: 'Perfect for a short-term experience.' },
-    { id: 2, name: '6 Months', amount: 699, description: 'Great for continued learning and growth.' },
-    { id: 3, name: '12 Months', amount: 999, description: 'Best value for long-term benefits.' },
+    { id: 1, name: '3 Months', amount: 999, description: 'Perfect for a short-term experience.' },
+    { id: 2, name: '6 Months', amount: 1499, description: 'Great for continued learning and growth.' },
+    { id: 3, name: '12 Months', amount: 3499, description: 'Best value for long-term benefits.' },
   ];
 
   const handleSubscribe = (pkg) => {

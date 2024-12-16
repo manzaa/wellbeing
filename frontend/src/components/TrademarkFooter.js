@@ -15,10 +15,10 @@ const TrademarkFooter = () => {
     >
       <Container maxWidth="md">
         <Typography variant="body2">
-          &copy; {new Date().getFullYear()} Your Company Name. All rights reserved.
+          &copy; {new Date().getFullYear()} ------. All rights reserved.
         </Typography>
         <Typography variant="caption" display="block" mt={1}>
-          Trademark information or disclaimer can go here.
+          {/* Trademark information or disclaimer can go here. */}
         </Typography>
       </Container>
     </Box>

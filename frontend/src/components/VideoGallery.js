@@ -14,7 +14,22 @@ const videos = [
   { title: "Friendship & Social Skills for Kids", path: "/videos/Friendship & Social Skills for Kids_ Goo 2024-11-09.mp4" },
   { title: "Gratitude and Positive Thinking for Kids", path: "/videos/Gratitude and Positive Thinking for Kids 2024-11-09.mp4" },
   { title: "Healthy Body Image & Self-Care for Kids", path: "/videos/Healthy Body Image & Self-Care for Kids  2024-11-09.mp4" },
-  // Add other videos as needed
+  { title: "Healthy Eating for Kids & Teens", path: "/videos/Healthy Eating for Kids & Teens_ Fueling 2024-11-09.mp4" },
+  { title: "Healthy Screen Time Tips for Kids & Teen", path: "/videos/Healthy Screen Time Tips for Kids & Teen 2024-11-09.mp4" },
+  { title: "Healthy Sleep Habits for Kids & Teens", path: "/videos/Healthy Sleep Habits for Kids & Teens 2024-11-09.mp4" },
+  { title: "Kids & Teens_ Fun Ways to Stay Active!", path: "/videos/Kids & Teens_ Fun Ways to Stay Active! 2024-11-09.mp4" },
+  { title: "Mastering Emotions, A Guide for Kids", path: "/videos/Mastering Emotions_ A Guide for Kids & T 2024-11-09.mp4" },
+  { title: "Mindfulness & Relaxation for Kids and Teens", path: "/videos/Mindfulness & Relaxation for Kids and Te 2024-11-09.mp4" },
+  { title: "Stay Safe, Stay Smart_ Safety Tips for Kids", path: "/videos/Stay Safe, Stay Smart_ Safety Tips for K 2024-11-09.mp4" },
+  { title: "Stress and Anxiety Tips for Kids", path: "/videos/Stress and Anxiety Tips for Kids_ Good v 2024-11-09.mp4" },
+  { title: "Top Tips for Developing Good Study Habit", path: "/videos/Top Tips for Developing Good Study Habit 2024-11-09.mp4" },
+  { title: "Let's Save Our Planet! 🌍", path: "/videos/Save Our Planet.mp4" },
+  { title: "Building Healthy Family Relationships for Kids and Teens", path: "/videos/Building Healthy Family Relationships fo 2024-11-09.mp4" },
+  { title: "Be Kind and Respectful, A Guide for Kids", path: "/videos/Be Kind and Respectful_ A Guide for Kids 2024-11-09.mp4" },
+  { title: "Unleashing Creativity, A Health Boost for Kids", path: "/videos/Unleashing Creativity_ A Health Boost fo 2024-11-09.mp4" },
+  { title: "Developing a Growth Mindset, Tips for Kids", path: "/videos/Developing a Growth Mindset_ Tips for Ki 2024-11-09.mp4" },
+  { title: "Understanding Cultural Diversity for Kids", path: "/videos/Understanding Cultural Diversity for Kid 2024-11-09.mp4" },
+  { title: "Personal Hygiene & Self-Care Tips for Kids", path: "/videos/Personal Hygiene & Self-Care Tips for Ki 2024-11-09.mp4" }
 ];
 
 // Fix: Ensure isSubscribed is correctly interpreted as null or 1
