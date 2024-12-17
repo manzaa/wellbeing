@@ -36,51 +36,145 @@ const AudioRecorder = ({ userId, topicId, subtopicId, onRecordingComplete }) => 
     const [subtopicAudio, setSubtopicAudio] = useState(''); // to hold the audio URL for the subtopic
         // Use a local array to accumulate audio chunks
         //const audioChunksRef = useRef([]);
+    // useEffect(() => {
+    //     const initializeRecorder = async () => {
+    //         try {
+    //             const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    //             const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+
+    //             recorder.ondataavailable = (e) => {
+    //                 if (e.data && e.data.size > 0) {
+    //                     console.log("recording....", recorder, e);
+    //                     audioChunksRef.current.push(e.data);
+    //                     //setAudioChunks((prev) => [...prev, e.data]);
+    //                 }
+    //             };
+    //             console.log(audioChunks);
+    //             recorder.onstop = async () => {
+    //                 if (audioChunksRef.current.length > 0) {
+    //                     console.log("audioChunks", audioChunksRef.current);
+    //                 const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+    //                 if (audioBlob.size === 0) {
+    //                     console.log('Recording error: Empty audio blob');
+    //                     return;
+    //                 }
+    //                 setIsConverting(true);
+    //                 //const url = await convertToMP3(audioBlob);
+    //                 //console.log("url", url);
+    //                 setIsConverting(false);
+    //                 //setAudioURL(url);
+    //                 await uploadRecording(audioBlob);
+    //                 await fetchSubtopicAudio();
+    //                 //onRecordingComplete(url);
+    //                 } else {
+    //                     console.log('Recording error: No audio chunks available');
+    //                 }
+    //             };
+    //             recorder.onerror = (error) => {
+    //                 console.error('Recording error:', error);
+    //             };
+    //             setMediaRecorder(recorder);
+    //         } catch (error) {
+    //             console.error('Microphone permission denied:', error);
+    //         }
+    //     };
+
+    //     initializeRecorder();
+    // }, []);
+
     useEffect(() => {
         const initializeRecorder = async () => {
             try {
+                // Step 1: Check for media device support
+                if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                    console.error('MediaRecorder not supported in this browser');
+                    alert('Your browser does not support audio recording.');
+                    return;
+                }
+    
+                // Step 2: Request microphone access
                 const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-                const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
-
+    
+                // Step 3: Select a compatible MIME type for recording
+                let mimeType = '';
+                if (MediaRecorder.isTypeSupported('audio/webm')) {
+                    mimeType = 'audio/webm';
+                } else if (MediaRecorder.isTypeSupported('audio/mp4')) {
+                    mimeType = 'audio/mp4';
+                } else if (MediaRecorder.isTypeSupported('audio/ogg')) {
+                    mimeType = 'audio/ogg';
+                } else {
+                    console.error('No supported MIME type found for recording');
+                    alert('Audio recording is not supported on this browser.');
+                    return;
+                }
+    
+                // Step 4: Initialize MediaRecorder
+                const recorder = new MediaRecorder(stream, { mimeType });
+                console.log('Initialized recorder with MIME type:', mimeType);
+    
                 recorder.ondataavailable = (e) => {
                     if (e.data && e.data.size > 0) {
-                        console.log("recording....", recorder, e);
                         audioChunksRef.current.push(e.data);
-                        //setAudioChunks((prev) => [...prev, e.data]);
                     }
                 };
-                console.log(audioChunks);
+    
                 recorder.onstop = async () => {
                     if (audioChunksRef.current.length > 0) {
-                        console.log("audioChunks", audioChunksRef.current);
-                    const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
-                    if (audioBlob.size === 0) {
-                        console.log('Recording error: Empty audio blob');
-                        return;
-                    }
-                    setIsConverting(true);
-                    //const url = await convertToMP3(audioBlob);
-                    //console.log("url", url);
-                    setIsConverting(false);
-                    //setAudioURL(url);
-                    await uploadRecording(audioBlob);
-                    await fetchSubtopicAudio();
-                    //onRecordingComplete(url);
-                    } else {
-                        console.log('Recording error: No audio chunks available');
+                        const audioBlob = new Blob(audioChunksRef.current, { type: mimeType });
+                        console.log('Audio Blob created:', audioBlob);
+    
+                        if (audioBlob.size > 0) {
+                            setIsConverting(true);
+                            await uploadRecording(audioBlob);
+                            await fetchSubtopicAudio();
+                            setIsConverting(false);
+                        } else {
+                            console.error('Recording error: Empty audio blob');
+                        }
                     }
                 };
-                recorder.onerror = (error) => {
-                    console.error('Recording error:', error);
-                };
+    
                 setMediaRecorder(recorder);
             } catch (error) {
-                console.error('Microphone permission denied:', error);
+                console.error('Error initializing recorder:', error);
+                alert('Failed to access the microphone. Please check permissions.');
             }
         };
-
+    
         initializeRecorder();
     }, []);
+    
+    const handlePlayAudio = async () => {
+        if (!subtopicAudio) {
+            console.error('No audio URL available to play');
+            return;
+        }
+    
+        try {
+            // Ensure playback is triggered by a user gesture
+            const response = await fetch(subtopicAudio);
+            const audioBlob = await response.blob();
+            const audioUrl = URL.createObjectURL(audioBlob);
+    
+            // Use AudioContext to ensure playback works on mobile
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const responseBuffer = await audioBlob.arrayBuffer();
+            const audioBuffer = await audioContext.decodeAudioData(responseBuffer);
+    
+            const source = audioContext.createBufferSource();
+            source.buffer = audioBuffer;
+            source.connect(audioContext.destination);
+    
+            // Start playback
+            source.start(0);
+            console.log('Audio is playing...');
+        } catch (error) {
+            console.error('Error playing audio:', error);
+            alert('Audio playback failed. Please try again.');
+        }
+    };
+    
 
     const openDialog = () => setOpen(true);
 
@@ -305,7 +399,7 @@ const AudioRecorder = ({ userId, topicId, subtopicId, onRecordingComplete }) => 
 
             {subtopicAudio && (
                 <Box display="flex" alignItems="center" gap={1} mt={2}>
-                    <IconButton onClick={() => new Audio(subtopicAudio).play()} color="success">
+                    <IconButton onClick={handlePlayAudio} color="success">
                         <PlayArrowIcon />
                     </IconButton>
                     <Typography variant="body2">Audio Recorded Now</Typography>

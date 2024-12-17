@@ -24,6 +24,7 @@ import axios from 'axios';
 import LikeButton from './likeButton';
 import AudioRecorder from './AudioRecorder';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+import StopIcon from '@mui/icons-material/Stop';
 
 const Dashboard = () => {
     const [topics, setTopics] = useState([]);
@@ -35,6 +36,8 @@ const Dashboard = () => {
     const [showLikedSubtopics, setShowLikedSubtopics] = useState(false);
     const [audioList, setAudioList] = useState([]);
     const [isPlaying, setIsPlaying] = useState(null);
+    const [isSpeaking, setIsSpeaking] = useState(false);
+    const [speechSynthesisInstance, setSpeechSynthesisInstance] = useState(null);
     const audioRefs = useRef({});
     const userId = sessionStorage.getItem('userId');
     const getAuthHeaders = () => {
@@ -71,6 +74,11 @@ const Dashboard = () => {
 
     const handleTopicChange = async (event) => {
         stopCurrentAudio();  // Stop audio when changing topic
+        if (speechSynthesisInstance) {
+            window.speechSynthesis.cancel();
+            setIsSpeaking(false);
+            setSpeechSynthesisInstance(null);
+        }
         const topic = event.target.value;
         setSelectedTopic(topic);
         setSubtopicsLoading(true);
@@ -122,10 +130,26 @@ const Dashboard = () => {
         }
     };
 
-    useEffect(() => {
-        return () => stopCurrentAudio(); // Cleanup on unmount
-    }, []);
+    // useEffect(() => {
+    //     return () => stopCurrentAudio(); // Cleanup on unmount
+    // }, []);
 
+
+    useEffect(() => {
+        return () => {
+            if (speechSynthesisInstance) {
+                window.speechSynthesis.cancel();
+                setIsSpeaking(false);
+                setSpeechSynthesisInstance(null);
+            }
+            if (isPlaying) {
+                stopCurrentAudio();
+            }
+        };
+    }, [speechSynthesisInstance, isPlaying]);
+
+
+    
     const subtopicsToDisplay = showLikedSubtopics ? likedSubtopics : subtopics;
     return (
         <Box sx={{ mt: 4, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -183,10 +207,39 @@ const Dashboard = () => {
                                 >
                                     <Typography>{subtopic.title}</Typography>
                                 </AccordionSummary>
-                                <AccordionDetails sx={{ padding: 2 }}>
-                                    <Typography variant="body2" color="textSecondary" paragraph>
-                                        {subtopic.description}
-                                    </Typography>
+                                <AccordionDetails sx={{ padding: 2, display: 'flex', flexDirection: 'column' }}>
+                                  {/* Play/Stop Icon with Guidance */}
+                                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+                                        <IconButton
+                                            onClick={(e) => {
+                                                e.stopPropagation(); // Prevent accordion toggle on click
+                                                if (isSpeaking) {
+                                                    window.speechSynthesis.cancel();
+                                                    setIsSpeaking(false);
+                                                    setSpeechSynthesisInstance(null);
+                                                } else {
+                                                    const utterance = new SpeechSynthesisUtterance(subtopic.description);
+                                                    utterance.lang = 'en-US';
+                                                    window.speechSynthesis.speak(utterance);
+                                                    setIsSpeaking(true);
+                                                    setSpeechSynthesisInstance(utterance);
+                                                    utterance.onend = () => setIsSpeaking(false);
+                                                }
+                                            }}
+                                            color="inherit"
+                                            sx={{ mr: 2 }} // Margin to separate icon from the text
+                                        >
+                                            {isSpeaking ? <StopIcon /> : <PlayArrowIcon />}
+                                        </IconButton>
+                                        <Typography variant="body2" sx={{ color: '#ffccbc', fontSize: '0.8rem' }}>
+                                            Tap to Play/Stop Description
+                                        </Typography>
+                                    </Box>
+                                        <Typography variant="body2" color="textSecondary" paragraph>
+                                            {subtopic.description}
+                                        </Typography>
+
+
                                     <LikeButton
                                         userId={userId}
                                         topicId={selectedTopic}
@@ -199,6 +252,7 @@ const Dashboard = () => {
                                         topicId={selectedTopic}
                                         subtopicId={subtopic.id}
                                     />
+
                                     {/* Display Recorded Audios */}
                                     <List sx={{ ml: 4 }}>
                                         {audioList.length > 0 &&
@@ -222,6 +276,7 @@ const Dashboard = () => {
                                                 ))}
                                     </List>
                                 </AccordionDetails>
+
                             </Accordion>
                         </Grid>
                     ))}
